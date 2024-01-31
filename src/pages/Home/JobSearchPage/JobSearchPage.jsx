@@ -17,8 +17,10 @@ const JobSearchPage = () => {
   const locations = ["New York", "San Francisco", "Los Angeles"]; // Sample locations
 
   return (
-    <div className="bg-gray-50 p-6">
-      <h1 className="m-2 text-neutral-800 font-bold">Search Your Dream Job</h1>
+    <div className="bg-gradient-to-b from-cyan-100 to-cyan-400 p-6">
+      <h1 className="m-2 text-2xl	p-4 text-neutral-800 font-bold text-center">
+        Search Your Dream Job
+      </h1>
       <SearchBar
         data={jobData}
         organizationTypes={organizationTypes}
