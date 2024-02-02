@@ -75,7 +75,7 @@ const SearchBar = ({ data, organizationTypes, locations }) => {
         )}
 
         <button
-          className="bg-cyan-700 text-white px-4 py-2 rounded-md"
+          className="bg-orange-500 text-white px-4 py-2 rounded-md"
           onClick={handleSearch}
         >
           <HiOutlineSearch className="inline-block mr-2" />
